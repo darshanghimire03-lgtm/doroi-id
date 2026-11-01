@@ -7,4 +7,4 @@ ENV KC_HTTP_ENABLED=true
 ENV KC_PROXY_HEADERS=xforwarded
 
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
-CMD ["start"]
+CMD ["start", "--optimized"]
